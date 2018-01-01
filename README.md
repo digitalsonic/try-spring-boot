@@ -34,4 +34,13 @@
 
 与Section 04相同，但不直接使用spring-data-redis，通过spring-boot-starter-data-redis简化了配置。
 
+## Section 06
+
+在Section 05的基础上，补充完善order-service，增加了创建订单、推进订单状态的功能。
+
+引入spring-boot-starter-amqp，通过消息通知barista制作咖啡。
+
+实现了一个简单的barista-service，处理咖啡订单。
+
+
 
