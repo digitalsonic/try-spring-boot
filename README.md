@@ -21,3 +21,17 @@
 
 以Section 01为基础，自定义了一组starter和autoconfiguration，启动时配置Barista信息。
 
+## Section 04
+
+以Section 01为基础，引入spring-data-redis，在Redis里存放价目表，使用了两种方式：
+
+1. 直接通过Hash存放在Redis里
+2. 通过Repository将Redis当做数据库使用
+
+需要现在127.0.0.1上启动一个Redis。
+
+## Section 05
+
+与Section 04相同，但不直接使用spring-data-redis，通过spring-boot-starter-data-redis简化了配置。
+
+
