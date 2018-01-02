@@ -42,5 +42,14 @@
 
 实现了一个简单的barista-service，处理咖啡订单。
 
+## Section 07
+
+将Section 06直接使用spring-boot-starter-amqp的方式改为使用spring-cloud-stream-rabbit。
+
+## Section 08
+
+在Section 07的基础上，为order-service增加了一些测试代码。
+
+增加了一个调用order-service服务的customer-service。
 
 
