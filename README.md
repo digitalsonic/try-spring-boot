@@ -52,4 +52,10 @@
 
 增加了一个调用order-service服务的customer-service。
 
+## Section 09
 
+在Sectino 08的基础上，引入了大量Spring Cloud组件，包括：
+
+1. Netflix的Eureka、Ribbon做服务自动注册与发现
+2. Hystrix做熔断
+3. Slueth和Zipkin做服务治理
