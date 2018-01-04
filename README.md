@@ -58,4 +58,9 @@
 
 1. Netflix的Eureka、Ribbon做服务自动注册与发现
 2. Hystrix做熔断
-3. Slueth和Zipkin做服务治理
+3. 使用了Spring Config Server，用Git来做后端
+4. Slueth和Zipkin做服务治理
+
+## Section 10
+
+在Section 09的基础上，将Eureka替换为Zookeeper来做服务注册和发现，用Feign代替Ribbon做负载均衡。
